@@ -1,0 +1,117 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header {
+    height: auto;
+    background-color: #b08968;
+}
+
+.header {
+    justify-content: space-around;
+    display: flex;
+    padding: 2.5rem;
+}
+
+.title-header > h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6c584c;
+}
+
+.links > img{
+    height: 2rem;
+    width: auto;
+}
+.links {
+    padding: 1.5rem;
+}
+
+.links > a {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #6c584c;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image-text {
+    background-color: #e3d5ca;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+}
+
+.text {
+    align-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text > h2 {
+    color: #b08968;
+    font-size: x-large;
+}
+
+.text > h1 {
+    color: #7f5539;
+    font-size: xx-large;
+}
+
+.text > p {
+    color: #b08968;
+    font-size: larger;
+}
+
+.image > img{
+    height: 25rem;
+    border-radius: 9rem;
+    width: auto;
+}
+
+.text-about-me {
+    background-color: #edede9;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-about-me > h2 {
+    font-size: xx-large;
+    color: #7f5539;
+}
+
+.text-about-me > p {
+    font-size: 1.2rem;
+    color: #b08968
+}
+
+footer {
+    height: 7rem;
+    width: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    justify-content: space-between;
+    display: flex;
+    background-color: #b08968;
+}
+
+.copy {
+    align-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.icons {
+    align-content: center;
+}
+
+.icons > a {
+    margin: 0.5rem;
+    font-size: 2rem;
+}

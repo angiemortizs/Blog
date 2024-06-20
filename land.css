@@ -1,0 +1,130 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+header {
+    background-color: #b08968;
+    height: 7rem;
+}
+
+.links-page1 {
+    justify-content: center;
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.links-page1 > a {
+    margin: 0.5rem;
+    color: #6c584c;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title1 {
+    background-color: #6c584c;
+    padding: 1rem;
+}
+
+.title1 > h2{
+    font-size: large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #6c584c;
+}
+
+.evidencies {
+    background-color: #e3d5ca;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.container > h2 {
+    font-size: 1.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #6c584c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > p {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > a {
+    color: #6c584c;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-evidence5 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.container-evidence5 > h2 {
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#6c584c  ;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container-evidence5 > img {
+    border-radius: 5rem;
+    height: 100rem;
+}
+
+
+.container-inphograf {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.routine {
+    border: 0.2rem solid white;
+    margin: 1rem;
+}
+
+footer {
+    height: 7rem;
+    width: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    justify-content: space-between;
+    display: flex;
+    background-color: #6c584c;
+}
+
+
+.icons {
+    align-content: center;
+}
+
+.icons > a {
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
